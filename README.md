@@ -20,7 +20,7 @@ python -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python solve_b3.py
 ```
 
-## 通用约定（与考卷一致）
+## 通用约定
 
 - 平移单位 m；题面角度 deg，代码内一律 rad；
 - 姿态为**固定角 ZYX（RPY）**：`R = Rz(rz) @ Ry(ry) @ Rx(rx)`，记 `(rx, ry, rz)`；
